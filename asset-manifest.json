@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/202c-internet-guide/static/css/main.7563cd2e.css",
-    "main.js": "/202c-internet-guide/static/js/main.5997dc6f.js",
+    "main.css": "/202c-internet-guide/static/css/main.2c275945.css",
+    "main.js": "/202c-internet-guide/static/js/main.b84f9020.js",
     "index.html": "/202c-internet-guide/index.html",
-    "main.7563cd2e.css.map": "/202c-internet-guide/static/css/main.7563cd2e.css.map",
-    "main.5997dc6f.js.map": "/202c-internet-guide/static/js/main.5997dc6f.js.map"
+    "main.2c275945.css.map": "/202c-internet-guide/static/css/main.2c275945.css.map",
+    "main.b84f9020.js.map": "/202c-internet-guide/static/js/main.b84f9020.js.map"
   },
   "entrypoints": [
-    "static/css/main.7563cd2e.css",
-    "static/js/main.5997dc6f.js"
+    "static/css/main.2c275945.css",
+    "static/js/main.b84f9020.js"
   ]
 }
