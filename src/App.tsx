@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <Rustacean />
         <h1>Learning the Rust Programming Language</h1>
+        <h3 className="Disclaimer">not affiliated with the Rust Foundation</h3>
         <h2 className="Sub-title">by Quinn Caverly</h2>
       </header>
       <div className="App-body">
@@ -49,8 +50,18 @@ function App() {
             </p>
           </section>
           <section id="section1">
-            <h2>Section 1</h2>
-            <p>Content for Section 1...</p>
+            <h2>The Rust Book</h2>
+            <p>Description of "The Rust Book". (Original content)</p>
+            <div className="Subsection">
+              <h3>Content and Scope</h3>
+              <p>
+                Details the content scope covered in "The Rust Book" section.
+              </p>
+              <h3>Relevance and Utility</h3>
+              <p>Discusses the relevance and utility of "The Rust Book".</p>
+              <h3>Effective Use Tips</h3>
+              <p>Provides usage tips for "The Rust Book".</p>
+            </div>
           </section>
           <section id="section2">
             <h2>Section 2</h2>
@@ -65,7 +76,7 @@ function App() {
             <p>Content for Section 4...</p>
           </section>
         </main>
-      </div>{" "}
+      </div>
     </div>
   );
 }
