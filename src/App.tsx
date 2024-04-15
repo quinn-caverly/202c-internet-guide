@@ -1,4 +1,10 @@
 import "./App.css";
+import AdventOfCode from "./content_blocks/AdventOfCode";
+import RustAPIDocumentation from "./content_blocks/RustAPIDocumentation";
+import RustBook from "./content_blocks/RustBook";
+import RustByExample from "./content_blocks/RustByExample";
+import RustForRustaceans from "./content_blocks/RustForRustaceans";
+import RustSubreddit from "./content_blocks/RustSubreddit";
 import Rustacean from "./Rustacean";
 
 function App() {
@@ -14,19 +20,25 @@ function App() {
         <nav className="TableOfContents">
           <ul>
             <li>
-              <a href="#section1">Why Rust?</a>
+              <a href="#abstract">Why Rust?</a>
             </li>
             <li className="indented">
-              <a href="#section1">Section 1</a>
+              <a href="#rust-book">The Rust Book</a>
             </li>
             <li className="indented">
-              <a href="#section2">Section 2</a>
+              <a href="#rust-by-example">Rust By Example</a>
             </li>
             <li className="indented">
-              <a href="#section3">Section 3</a>
+              <a href="#advent-of-code">General Practice Problems</a>
             </li>
             <li className="indented">
-              <a href="#section4">Section 4</a>
+              <a href="#rust-subreddit">Rust's Subreddit</a>
+            </li>
+            <li className="indented">
+              <a href="#rust-api-documentation">Rust API Documentation</a>
+            </li>
+            <li className="indented">
+              <a href="#rust-for-rustaceans">Rust For Rustaceans</a>
             </li>
           </ul>
         </nav>
@@ -43,38 +55,15 @@ function App() {
               potentially financially lucrative situation for those who can
               effectively write code in Rust. This guide will put forward and
               describe several resources which can help a coder become
-              comfortable in the Rust programming language. Resources which are
-              helpful for gaining an introduction to Rust will be marked in
-              green and resources for intermediate users will be marked in
-              purple on the table of contents.
+              comfortable in the Rust programming language.
             </p>
           </section>
-          <section id="section1">
-            <h2>The Rust Book</h2>
-            <p>Description of "The Rust Book". (Original content)</p>
-            <div className="Subsection">
-              <h3>Content and Scope</h3>
-              <p>
-                Details the content scope covered in "The Rust Book" section.
-              </p>
-              <h3>Relevance and Utility</h3>
-              <p>Discusses the relevance and utility of "The Rust Book".</p>
-              <h3>Effective Use Tips</h3>
-              <p>Provides usage tips for "The Rust Book".</p>
-            </div>
-          </section>
-          <section id="section2">
-            <h2>Section 2</h2>
-            <p>Content for Section 2...</p>
-          </section>
-          <section id="section3">
-            <h2>Section 3</h2>
-            <p>Content for Section 3...</p>
-          </section>
-          <section id="section4">
-            <h2>Section 4</h2>
-            <p>Content for Section 4...</p>
-          </section>
+          <RustBook />
+          <RustByExample />
+          <AdventOfCode />
+          <RustSubreddit />
+          <RustAPIDocumentation />
+          <RustForRustaceans />
         </main>
       </div>
     </div>
