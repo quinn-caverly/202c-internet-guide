@@ -46,7 +46,7 @@ function App() {
       </header>
       <div className="App-body">
         <nav id="sidebar" className="TableOfContents">
-        <h1 className="Toc-Header">Contents</h1>
+          <h1 className="Toc-Header">Contents</h1>
           <ul>
             <li>
               <a href="#abstract">Why Rust?</a>
@@ -75,18 +75,32 @@ function App() {
           <section id="abstract">
             <h2>Why Rust?</h2>
             <p>
-              Rust is a programming language which is increasing in popularity
-              due to its safety advantages over industry standard languages like
-              C and C++.
+              Rust is a programming language highly regarded for its focus on
+              safety and performance. Its unique ownership model guarantees
+              memory safety without the need for a garbage collector, making it
+              an excellent choice for systems programming where efficiency is
+              crucial. Rust also features powerful concurrency capabilities,
+              enabling developers to write software that makes full use of
+              modern multi-core processors without the common pitfalls of data
+              races and other concurrency errors. Due to its unique features,
+              learning Rust can provide a coder with an intuition of the
+              underlying mechanisms in other programming languages, thereby
+              increasing their general proficiency in coding.
             </p>
-            <h2>Who This Guide is For</h2>
+            <h2>Guide Usage</h2>
             <p>
-              This guide is for coders who already already comfortable writing
-              code in at least one programming language. Readers should have a
-              strong understanding of the fundamentals of programming.
+              This guide is intended for readers who have moderate experience in
+              at least one programming language and who have little to no
+              exposure to the Rust programming language. The guide is organized
+              chronologically with respect to the sequence in which resources
+              should be tackled. It begins by presenting a couple of
+              user-friendly resources created by the Rust development team.
+              Subsequently, it introduces practice problems and a few resources
+              that are helpful for addressing real-world problems using Rust.
+              Finally, the guide concludes by presenting the technical Rust API
+              Documentation and a book tailored for intermediate users of Rust
+              who wish to hone their skills.
             </p>
-            <h2>How to Use This Guide</h2>
-            <p></p>
           </section>
           <RustBook />
           <RustByExample />
