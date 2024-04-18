@@ -1,19 +1,28 @@
+import RustForRustaceansIMG from "./images/RustForRustaceans.png";
+
 export default function RustForRustaceans() {
   return (
     <section id="rust-for-rustaceans">
-      <h2>Rust For Rustaceans Book</h2>
-      <p>
-        Rust for Rustaceans is a specialized book written by Jon Gjengset, an
-        expert in the Rust community. It provides readers who are already
-        experienced with Rust with a deeper dive into the practical applications
-        and optimizations that Rust enables.
-      </p>
-      <h3>
-        <a href="https://doc.rust-lang.org/stable/book/">
-          Link to the Rust Book
-        </a>
-      </h3>
-      <div className="Subsection">
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>Rust For Rustaceans Book</h2>
+            <a href="https://rust-for-rustaceans.com/">
+              https://rust-for-rustaceans.com
+            </a>
+          </div>
+          <p>
+            Rust for Rustaceans is a specialized book written by Jon Gjengset,
+            an expert in the Rust community. It provides readers who are already
+            experienced with Rust with a deeper dive into the practical
+            applications and optimizations that Rust enables.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={RustForRustaceansIMG} alt="Rust For Rustaceans Cover" />
+        </div>
+      </div>
+     <div className="Subsection">
         <h3>Content and Scope</h3>
         <p>
           Rust for Rustaceans is comprehensive and detailed, covering everything

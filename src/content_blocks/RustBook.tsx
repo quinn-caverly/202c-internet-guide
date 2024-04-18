@@ -1,18 +1,28 @@
+import RustBookImage from "./images/Rust-Book.png";
+
 export default function RustBook() {
   return (
     <section id="rust-book">
-      <h2>The Rust Book</h2>
-      <p>
-        The Rust Book is the definitive guide to Rust, authored by the Rust
-        development team. Available for free online, it is continuously updated
-        to reflect the latest capabilities of Rust, making it an indispensable
-        resource for learning and mastering the language.
-      </p>
-      <h3>
-        <a href="https://doc.rust-lang.org/stable/book/">
-          Link to the Rust Book
-        </a>
-      </h3>
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>The Rust Book</h2>
+            <a href="https://doc.rust-lang.org/stable/book/">
+              https://doc.rust-lang.org/stable/book
+            </a>
+          </div>
+          <p>
+            The Rust Book is the definitive guide to Rust, authored by the Rust
+            development team. Available for free online, it is continuously
+            updated to reflect the latest capabilities of Rust, making it an
+            indispensable resource for learning and mastering the language.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={RustBookImage} alt="Rust Book Cover" />
+        </div>
+      </div>
+      <h3></h3>
       <div className="Subsection">
         <h3>Content and Scope</h3>
         <p>
@@ -42,8 +52,7 @@ export default function RustBook() {
         <ul>
           <li>
             <strong>View on Your Favorite Device: </strong>
-            The book is available
-            as a web page, in print, or on an e-reader.
+            The book is available as a web page, in print, or on an e-reader.
           </li>
           <li>
             <strong>Use a Rust Environment: </strong>

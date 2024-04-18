@@ -1,22 +1,31 @@
+import RustByExampleImg from "./images/Rust-By-Example.png";
+
 export default function RustByExample() {
   return (
     <section id="rust-by-example">
-      <h2>Rust By Example</h2>
-        <p>
-          Rust by Example (RBE) is part of the official Rust documentation and
-          offers a collection of runnable examples that illustrate various Rust
-          concepts and standard libraries. RBE serves as a practical complement
-          to the text-heavy Rust Book and is ideal for readers who prefer
-          learning through practical examples rather than theoretical
-          explanations.
-        </p>
-       <h3>
-        <a href="https://doc.rust-lang.org/stable/book/">
-          Link to the Rust Book
-        </a>
-      </h3>
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>Rust By Example</h2>
+            <a href="https://doc.rust-lang.org/rust-by-example/">
+              https://doc.rust-lang.org/rust-by-example
+            </a>
+          </div>
+          <p>
+            Rust by Example (RBE) is part of the official Rust documentation and
+            offers a collection of runnable examples that illustrate various
+            Rust concepts and standard libraries. RBE serves as a practical
+            complement to the text-heavy Rust Book and is ideal for readers who
+            prefer learning through practical examples rather than theoretical
+            explanations.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={RustByExampleImg} alt="Rust By Example" />
+        </div>
+      </div>
       <div className="Subsection">
-       <h3>Content and Scope</h3>
+        <h3>Content and Scope</h3>
         <p>
           RBE encompasses a broad range of Rust programming techniques and
           concepts. It starts with the classic implementation of the "Hello

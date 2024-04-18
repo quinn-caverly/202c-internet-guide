@@ -1,22 +1,31 @@
+import AOC from "./images/AOC.png";
+
 export default function AdventOfCode() {
   return (
     <section id="advent-of-code">
-      <h2>General Practice Problems</h2>
-      <p>
-        "Advent of Code" is an annual online event where participants are
-        challenged with daily coding problems from December 1st through the
-        25th. Each day’s problems are designed to test a variety of programming
-        skills and concepts, making them ideal for learning a new programming
-        language. Although the problems are holiday-themed and are released
-        during the holiday season, they can be accessed and solved any time of
-        the year, thanks to the availability of problems from previous years on
-        the site.
-      </p>
-      <h3>
-        <a href="https://adventofcode.com/">
-          Link to the Advent of Code practice problems
-        </a>
-      </h3>
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>General Practice Problems</h2>
+            <a href="https://adventofcode.com/2023">
+              https://adventofcode.com/2023
+            </a>
+          </div>
+          <p>
+            "Advent of Code" is an annual online event where participants are
+            challenged with daily coding problems from December 1st through the
+            25th. Each day’s problems are designed to test a variety of
+            programming skills and concepts, making them ideal for learning a
+            new programming language. Although the problems are holiday-themed
+            and are released during the holiday season, they can be accessed and
+            solved any time of the year, thanks to the availability of problems
+            from previous years on the site.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={AOC} alt="General Practice Problems" />
+        </div>
+      </div>
       <div className="Subsection">
         <h3>Content and Scope</h3>
         <p>
@@ -47,7 +56,6 @@ export default function AdventOfCode() {
             easier problems available at the beginning of each set, before
             progressing to more complex challenges.
           </li>
-
           <li>
             <strong>Read Community Solutions: </strong>
             After completing a problem, explore solutions posted by other Rust

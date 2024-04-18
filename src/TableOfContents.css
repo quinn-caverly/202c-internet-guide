@@ -1,0 +1,49 @@
+/* General TOC styles */
+.TableOfContents {
+  background-color: #f0f0f0;
+  width: 500px;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  position: static; /* Static by default, this can be omitted if no specific positioning is needed */
+}
+
+/* Header styles */
+.Toc-Header {
+  font-size: 23px;
+  color: #333333;
+  margin-bottom: 10px; /* Space below the header */
+}
+
+/* List styles */
+.TableOfContents ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Link styles */
+.TableOfContents a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 19px;
+  display: block;
+  padding: 15px 15px 15px 15px; /* Simplified padding */
+  text-align: left;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+/* Indented links for sub-items */
+.TableOfContents .indented a {
+  padding-left: 40px;
+}
+
+/* Hover and focus effects for links */
+.TableOfContents a:hover,
+.TableOfContents a:focus {
+  background-color: #282c34;
+  color: white;
+  border-radius: 5px;
+}

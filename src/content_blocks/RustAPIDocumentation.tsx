@@ -1,18 +1,27 @@
+import RustDocs from "./images/Rust-Docs.png";
+
 export default function RustAPIDocumentation() {
   return (
     <section id="rust-api-documentation">
-      <h2>Rust API Documentation</h2>
-      <p>
-        The Rust API Documentation is an indispensable resource for developers
-        working with Rust, providing detailed information about the Rust
-        standard library. It essentially contains all information which could be
-        needed about the specifics of the Rust language.
-      </p>
-      <h3>
-        <a href="https://doc.rust-lang.org/beta/std/index.html">
-          Link to the docs
-        </a>
-      </h3>
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>Rust API Documentation</h2>
+            <a href="https://doc.rust-lang.org/beta/std/index.html">
+              https://doc.rust-lang.org/beta/std/index.html
+            </a>
+          </div>
+          <p>
+            The Rust API Documentation is an indispensable resource for
+            developers working with Rust, providing detailed information about
+            the Rust standard library. It essentially contains all information
+            which could be needed about the specifics of the Rust language.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={RustDocs} alt="Rust Docs" />
+        </div>
+      </div>
       <div className="Subsection">
         <h3>Content and Scope</h3>
         <p>

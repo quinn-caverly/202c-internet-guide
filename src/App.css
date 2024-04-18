@@ -13,10 +13,6 @@
   color: white;
 }
 
-.Toc-Header {
-  font-size: calc(10px + 1.5vmin);
-}
-
 .Rust-logo {
   height: 100px;
   margin-right: 10px;
@@ -42,102 +38,4 @@
 
 .App-body {
   display: flex;
-}
-
-.TableOfContents {
-  position: static;
-  background-color: #f0f0f0;
-  width: 500px;
-  height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.TableOfContents ul {
-  list-style: none;
-  padding: 0;
-}
-
-.TableOfContents a {
-  text-decoration: none;
-  color: #282c34;
-  font-weight: bold;
-  font-size: 20px;
-  display: block;
-  padding: 15px;
-  text-align: left;
-  transition:
-    background-color 0.3s,
-    color 0.3s;
-}
-
-.TableOfContents .indented a {
-  padding-left: 40px;
-}
-
-.TableOfContents a:hover,
-.TableOfContents a:focus {
-  background-color: #282c34;
-  border-radius: 5px;
-  color: white;
-}
-
-.Content {
-  padding: 20px;
-  height: 100%;
-  padding-left: 520px;
-}
-
-.Content section {
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.Content section:not(:last-child) {
-  border-bottom: 10px solid #ccc;
-}
-
-.Content h2 {
-  color: #282c34;
-  font-size: 35px;
-  margin-bottom: 10px;
-}
-
-.Subsection h3 {
-  font-weight: normal;
-}
-
-h3 {
-  color: #282c34;
-  font-size: 30px;
-  max-width: 60%;
-  margin-left: auto; /* Center the paragraph by setting automatic margins */
-  margin-right: auto;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.Content ul {
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Content li {
-    text-align: left;
-    font-size: 25px;
-}
-
-.Content p {
-  text-indent: 2em; /* Indents the first line of the paragraph */
-  font-size: 25px;
-  max-width: 60%; /* Control the maximum width */
-  margin-left: auto; /* Center the paragraph by setting automatic margins */
-  margin-right: auto;
-  text-align: left; /* Ensures text within the paragraph is left-aligned */
-}
-
-/* Optional: Improve the overall readability by increasing line spacing */
-.Content p {
-  line-height: 1.6; /* Increases the space between lines */
 }

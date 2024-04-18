@@ -1,20 +1,29 @@
+import RustSubredditImg from "./images/Rust-Subreddit.png";
+
 export default function RustSubreddit() {
   return (
     <section id="rust-subreddit">
-      <h2>The Rust Subreddit</h2>
-      <p>
-        The Rust subreddit is a vibrant online community where both newcomers
-        and seasoned developers converge to discuss all things related to the
-        Rust programming language. The platform offers a diverse mixture of
-        content including announcements of new Rust versions, discussions about
-        Rust libraries, and tutorials, making it an ideal place to learn about
-        all things Rust.
-      </p>
-      <h3>
-        <a href="https://doc.rust-lang.org/stable/book/">
-          Link to the Rust Book
-        </a>
-      </h3>
+      <div className="Head-Section">
+        <div className="Text-Content">
+          <div className="Title-And-Link">
+            <h2>The Rust Subreddit</h2>
+            <a href="https://www.reddit.com/r/rust/">
+              https://www.reddit.com/r/rust
+            </a>
+          </div>
+          <p>
+            The Rust subreddit is a vibrant online community where both
+            newcomers and seasoned developers converge to discuss all things
+            related to the Rust programming language. The platform offers a
+            diverse mixture of content including announcements of new Rust
+            versions, discussions about Rust libraries, and tutorials, making it
+            an ideal place to learn about all things Rust.
+          </p>
+        </div>
+        <div className="Image-Content">
+          <img src={RustSubredditImg} alt="Rust Subreddit Homepage" />
+        </div>
+      </div>
       <div className="Subsection">
         <h3>Content and Scope</h3>
         <p>

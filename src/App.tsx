@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
+import "./Content.css";
+import "./TableOfContents.css";
 import AdventOfCode from "./content_blocks/AdventOfCode";
 import RustAPIDocumentation from "./content_blocks/RustAPIDocumentation";
 import RustBook from "./content_blocks/RustBook";
@@ -46,10 +48,16 @@ function App() {
       </header>
       <div className="App-body">
         <nav id="sidebar" className="TableOfContents">
-          <h1 className="Toc-Header">Contents</h1>
+          <h1 className="Toc-Header">Table of Contents</h1>
           <ul>
             <li>
               <a href="#abstract">Why Rust?</a>
+            </li>
+            <li>
+              <a href="#usage">Guide Usage</a>
+            </li>
+            <li>
+              <a href="#rust-book">Introductory Resources</a>
             </li>
             <li className="indented">
               <a href="#rust-book">The Rust Book</a>
@@ -57,11 +65,17 @@ function App() {
             <li className="indented">
               <a href="#rust-by-example">Rust By Example</a>
             </li>
+            <li>
+              <a href="#advent-of-code">Practice Resources</a>
+            </li>
             <li className="indented">
               <a href="#advent-of-code">General Practice Problems</a>
             </li>
             <li className="indented">
               <a href="#rust-subreddit">Rust's Subreddit</a>
+            </li>
+            <li>
+              <a href="#rust-api-documentation">Intermediate Resources</a>
             </li>
             <li className="indented">
               <a href="#rust-api-documentation">Rust API Documentation</a>
@@ -87,6 +101,8 @@ function App() {
               underlying mechanisms in other programming languages, thereby
               increasing their general proficiency in coding.
             </p>
+          </section>
+          <section id="usage">
             <h2>Guide Usage</h2>
             <p>
               This guide is intended for readers who have moderate experience in
@@ -94,7 +110,7 @@ function App() {
               exposure to the Rust programming language. The guide is organized
               chronologically with respect to the sequence in which resources
               should be tackled. It begins by presenting a couple of
-              user-friendly resources created by the Rust development team.
+              beginner-friendly resources created by the Rust development team.
               Subsequently, it introduces practice problems and a few resources
               that are helpful for addressing real-world problems using Rust.
               Finally, the guide concludes by presenting the technical Rust API
