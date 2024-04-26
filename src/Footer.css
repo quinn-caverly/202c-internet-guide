@@ -1,0 +1,30 @@
+.App-footer {
+  background-color: #282c34;
+  min-height: 40vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+  position: relative;
+  z-index: 2;
+}
+
+.Footer-Section {
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.App-footer p {
+  color: #F2F3F4;
+  font-size: 20px;
+  line-height: 1.6;
+
+  text-align: left;
+}
+
+.App-footer a {
+  color: #c45508;
+}

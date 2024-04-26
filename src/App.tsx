@@ -9,6 +9,7 @@ import RustByExample from "./content_blocks/RustByExample";
 import RustForRustaceans from "./content_blocks/RustForRustaceans";
 import RustSubreddit from "./content_blocks/RustSubreddit";
 import Rustacean from "./Rustacean";
+import Footer from "./Footer";
 
 function App() {
   useEffect(() => {
@@ -126,6 +127,7 @@ function App() {
           <RustForRustaceans />
         </main>
       </div>
+      <Footer />
     </div>
   );
 }
