@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/202c-internet-guide/static/css/main.d2f000ac.css",
-    "main.js": "/202c-internet-guide/static/js/main.1aa1c9f2.js",
+    "main.css": "/202c-internet-guide/static/css/main.5a85a8ef.css",
+    "main.js": "/202c-internet-guide/static/js/main.df85c25c.js",
     "static/media/RustForRustaceans.png": "/202c-internet-guide/static/media/RustForRustaceans.7c80b7753dea4bb83c41.png",
     "static/media/Rust-Docs.png": "/202c-internet-guide/static/media/Rust-Docs.1daea0e19da1b32b846a.png",
     "static/media/AOC.png": "/202c-internet-guide/static/media/AOC.3c5ec2e3ab28f99385b9.png",
@@ -9,11 +9,11 @@
     "static/media/Rust-By-Example.png": "/202c-internet-guide/static/media/Rust-By-Example.60a611c75159a4740b22.png",
     "static/media/Rust-Subreddit.png": "/202c-internet-guide/static/media/Rust-Subreddit.5dc6100a468c7ed5b30d.png",
     "index.html": "/202c-internet-guide/index.html",
-    "main.d2f000ac.css.map": "/202c-internet-guide/static/css/main.d2f000ac.css.map",
-    "main.1aa1c9f2.js.map": "/202c-internet-guide/static/js/main.1aa1c9f2.js.map"
+    "main.5a85a8ef.css.map": "/202c-internet-guide/static/css/main.5a85a8ef.css.map",
+    "main.df85c25c.js.map": "/202c-internet-guide/static/js/main.df85c25c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f000ac.css",
-    "static/js/main.1aa1c9f2.js"
+    "static/css/main.5a85a8ef.css",
+    "static/js/main.df85c25c.js"
   ]
 }
